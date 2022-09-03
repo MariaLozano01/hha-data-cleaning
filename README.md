@@ -3,6 +3,7 @@
 ## Preparation steps
 Import packages needed for this assignment 
 > Import pandas as pd
+
 > Import numpy 
 
 #### Step 1
