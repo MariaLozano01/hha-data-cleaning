@@ -69,7 +69,7 @@ Assess missingness (count of missing values per column)
 ### Step 10
 New data field: attempt to create a new column called modality_inperson. This column should contain a binary value of true or false. Try to write a function that takes in the old column name (learning modality), and recodes the value for a specific row to true, if the learning modality value is ‘in-person’, and recodes it to false if the value is either ‘remote’ or ‘hybrid’ 
 
-This line was added to make a new column named "Modality in Person" and determines whether to assign a 'True' statement if the row was "In PEerson" or 'False' statement if otherwise
+This line was added to make a new column named "Modality in Person" and determines whether to assign a 'True' statement if the row was "In Person" or 'False' statement if otherwise
 > upload['modality_inperson'] = pd.np.where(upload.Learning_Modality.str.contains('In Person'), 'true', 'false')
 
 This lines was done to view the entire table and make sure the modality column was added 
