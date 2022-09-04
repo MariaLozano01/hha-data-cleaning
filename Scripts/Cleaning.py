@@ -17,7 +17,7 @@ strings
 #Step 6 Assesses white space or special characters 
 list(upload) #White spaces were replaced by an underscore when line 13 was ran
 #Step 7 Converts the column types to the correct types 
-upload.dtypes 
+upload.dtypes #to view all column types
 
 #all column types seem to be correct
 
