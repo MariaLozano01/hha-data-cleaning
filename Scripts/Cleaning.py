@@ -1,8 +1,8 @@
-import pandas as pd
+import pandas as pd #Import packages needed
 import numpy as np
 #Step 1
 upload = pd.read_csv('/Users/marialozano/Downloads/GRADUATE FALL 2022 /HHA 507 Data Science/HW Documents/School_Learning_Modalities.csv')
-upload.shape
+upload.shape #df.shape gives us the number of rows and columns in our specific dataset
 #Step 2
 countRows, countColumns = upload.shape
 countRows
