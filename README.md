@@ -38,11 +38,11 @@ Cleans the strings that might exist within each column
 Ran the code again to make sure it worked
 > strings
 
-### Step 6
+## Step 6
 Assesses white space or special characters 
 > list(upload) White spaces were replaced by an underscore when line 13 was ran
 
-# Step 7 
+## Step 7 
 Converts the column types to the correct types
 > upload.dtypes In order to display the data type of each column
 
@@ -61,12 +61,12 @@ This line is to define how many duplicates there are
 
 There are no duplicates to remove on this dataset
 
-### Step 9
+## Step 9
 Assess missingness (count of missing values per column) 
 > upload.isnull().sum() 
 
 
-### Step 10
+## Step 10
 New data field: attempt to create a new column called modality_inperson. This column should contain a binary value of true or false. Try to write a function that takes in the old column name (learning modality), and recodes the value for a specific row to true, if the learning modality value is ‘in-person’, and recodes it to false if the value is either ‘remote’ or ‘hybrid’ 
 
 This line was added to make a new column named "Modality in Person" and determines whether to assign a 'True' statement if the row was "In Person" or 'False' statement if otherwise
