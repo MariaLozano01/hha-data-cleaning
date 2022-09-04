@@ -28,6 +28,8 @@ objects
 
 upload.dtypes 
 
+#all column typpes seem to be correct
+
 #Step 8 Look for duplicate rows and remove any duplicate rows
 
 print(upload.duplicated()) #this line is to see which columns have suplicates
