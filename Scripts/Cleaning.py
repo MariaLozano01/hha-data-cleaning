@@ -1,12 +1,12 @@
 import pandas as pd #Import packages needed
 import numpy as np
-#Step 1
+#Step 1 
 upload = pd.read_csv('/Users/marialozano/Downloads/GRADUATE FALL 2022 /HHA 507 Data Science/HW Documents/School_Learning_Modalities.csv')
 upload.shape #df.shape gives us the number of rows and columns in our specific dataset
 #Step 2
-countRows, countColumns = upload.shape
-countRows
-countColumns
+countRows, countColumns = upload.shape #This line assigns names to each value
+countRows #Ran it to be able to see the number of rows in our dataset
+countColumns #Ran it to be able to see the number of columns in our dataset
 #Step 3 provides column names
 list(upload)
 #Step 4 cleans column names
@@ -17,14 +17,8 @@ strings
 #Step 6 Assesses white space or special characters 
 list(upload) #White spaces were replaced by an underscore when line 13 was ran
 #Step 7 Converts the column types to the correct types 
-<<<<<<< HEAD
 upload.dtypes #to display the data type for each column
 #All column types were coreect therefore we did not need a line to convert
-=======
-upload.dtypes #to view all column types
-
-#all column types seem to be correct
->>>>>>> 5330682cea041a613bca93c79b258b0cd308eb58
 
 #Step 8 Look for duplicate rows and remove any duplicate rows
 
