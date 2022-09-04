@@ -17,15 +17,6 @@ strings
 #Step 6 Assesses white space or special characters 
 list(upload) #White spaces were replaced by an underscore when line 13 was ran
 #Step 7 Converts the column types to the correct types 
-numbers = upload.select_dtypes(include=['int64', 'float64']).columns
-numbers
-dates = upload.select_dtypes(include=['datetime64[ns]']).columns
-dates
-booleans = upload.select_dtypes(include=['bool']).columns
-booleans
-objects = upload.select_dtypes(include=['object']).columns
-objects
-
 upload.dtypes 
 
 #all column types seem to be correct
