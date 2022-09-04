@@ -17,8 +17,16 @@ strings
 #Step 6 Assesses white space or special characters 
 list(upload) #White spaces were replaced by an underscore when line 13 was ran
 #Step 7 Converts the column types to the correct types 
-upload.dtypes #to display the data type for each column
-#All column types were coreect therefore we did not need a line to convert
+numbers = upload.select_dtypes(include=['int64', 'float64']).columns
+numbers
+dates = upload.select_dtypes(include=['datetime64[ns]']).columns
+dates
+booleans = upload.select_dtypes(include=['bool']).columns
+booleans
+objects = upload.select_dtypes(include=['object']).columns
+objects
+
+upload.dtypes 
 
 #Step 8 Look for duplicate rows and remove any duplicate rows
 
