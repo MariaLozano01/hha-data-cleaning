@@ -28,7 +28,7 @@ objects
 
 upload.dtypes 
 
-#all column typpes seem to be correct
+#all column types seem to be correct
 
 #Step 8 Look for duplicate rows and remove any duplicate rows
 
