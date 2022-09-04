@@ -17,8 +17,14 @@ strings
 #Step 6 Assesses white space or special characters 
 list(upload) #White spaces were replaced by an underscore when line 13 was ran
 #Step 7 Converts the column types to the correct types 
+<<<<<<< HEAD
 upload.dtypes #to display the data type for each column
 #All column types were coreect therefore we did not need a line to convert
+=======
+upload.dtypes #to view all column types
+
+#all column types seem to be correct
+>>>>>>> 5330682cea041a613bca93c79b258b0cd308eb58
 
 #Step 8 Look for duplicate rows and remove any duplicate rows
 
